@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: 'Okey'
+  steps:
+  - intent: menyapa
+  - action: utter_greet
+
+- rule: 'Baik'
+  steps:
+  - intent: location_inp
+  - action: utter_suggest

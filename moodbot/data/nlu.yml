@@ -1,0 +1,85 @@
+version: "2.0"
+
+nlu:
+- intent: menyapa
+  examples: |
+    - hai
+    - halo
+    - hi
+    - hello
+    - hey
+    - selamat pagi
+    - selamat malam
+    - selamatpagi
+    - selamatmalam
+    - selamat sore
+    - selamat siang
+
+- intent: ingin_menanam
+  examples: |
+    - eh bro, gua pengen nanem nih
+    - saya ingin bercocok tanam gais
+    - saya ingin menanam dirumah saya
+    - aku pengen nanem taneman nih
+    - aku ingin menanam
+    - gua mau nanem taneman
+    - saya ingin menanam tanaman
+    - aku ingin menanam sesuatu
+    - saya ingin menanam suatu tanaman
+
+- intent: tipe_hidroponik
+  examples: |
+    - saya ingin menanam hidroponik
+    - saya ingin hidroponik
+    - ingin hidroponik
+    - hidroponik
+    - hydrophonic
+
+- intent: tipe_aeroponik
+  examples: |
+    - saya ingin menanam aeroponik
+    - saya ingin aeroponik
+    - ingin aeroponik
+    - aeroponik
+    - aerophonic
+
+- intent: tanya_tanaman
+  examples: |
+    - apa tanaman yang bisa saya tanam?
+  
+- intent: kriteria
+  examples: /
+    - mudah, dapat dipanen
+    - murah. mudah
+    - sehat, hijau
+
+- intent: area_inp
+  examples: |
+    - luas lahan saya hampir nol
+    - lahan saya tidak terlalu besar
+    - saya tidak mempunyai lahan sama sekali
+    - lahan yang saya punya tidak ada
+    - lahan yang saya miliki cukup luas
+    - lahannya gede banget
+    - lahan aku selumbung pagi
+    - aku punya lahan sawah
+    - saya punya lahan 300 meter
+    - saya punya lahan 400 meter
+    - saya tidak punya lahan
+
+- intent: zero_area
+  examples: |
+    - luas lahan saya hampir nol
+    - saya tidak mempunyai lahan sama sekali
+    - lahan yang saya punya tidak ada
+    - saya tidak punya lahan
+
+- intent: location_inp
+  examples: |
+    - saya bertempat di bandung
+    - rumah saya dekat ciwidey
+    - saya bertempat di pedesaan
+    - saya tinggal di jalan soeta
+    - tempatku di rumahku
+    - aku bertempat di pinggir desa
+

@@ -1,0 +1,48 @@
+version: "2.0"
+
+intents:
+  - menyapa
+  - area_inp
+  - location_inp
+  - ingin_menanam
+  - tipe_aeroponik
+  - tipe_hidroponik
+  - zero_area
+
+slots:
+  name:
+    type: unfeaturized
+  area:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+
+responses:
+  utter_greet:
+  - text: "Hai kak, Ada yang bisa saya bantu?"
+
+  utter_ask_area:
+  - text: "Waw niat anda sangat baik, luas lahan yang anda punya kira-kira seluas apa ya?"
+
+  utter_ask_location:
+  - text: "Okey, saat ini anda berada dimana ya?"
+
+  utter_ask_asset:
+  - text: "Lahan seluas apa yang ingin anda gunakan?"
+
+  utter_suggest:
+  - text: "Okey, menurut saya tanaman yang ideal untuk anda tanam adalah tomat dan pakcoy"
+  - text: "Baik, menurut saya tanaman yang pas untuk anda tanam adalah sawi"
+
+  utter_type:
+  - text: "Waw niat anda sangat baik, Jenis penanaman seperti apa yang anda inginkan? apakah hidroponik atau aeroponik?"
+
+  utter_aero_zero:
+  - text: "tanaman yang layak anda coba adalah sayuran daun dan beberapa jenis tanaman umbi"
+
+  utter_hydro_zero:
+  - text: "tanaman yang layak anda coba adalah tanaman, sawi hijau, brokoli dan seledri"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

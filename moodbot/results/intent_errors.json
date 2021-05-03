@@ -1,0 +1,34 @@
+[
+  {
+    "text": "luas lahan saya hampir nol",
+    "intent": "area_inp",
+    "intent_prediction": {
+      "name": "zero_area",
+      "confidence": 0.6679127812385559
+    }
+  },
+  {
+    "text": "saya tidak mempunyai lahan sama sekali",
+    "intent": "area_inp",
+    "intent_prediction": {
+      "name": "zero_area",
+      "confidence": 0.5005399584770203
+    }
+  },
+  {
+    "text": "lahan yang saya punya tidak ada",
+    "intent": "area_inp",
+    "intent_prediction": {
+      "name": "zero_area",
+      "confidence": 0.6222741007804871
+    }
+  },
+  {
+    "text": "saya tidak punya lahan",
+    "intent": "area_inp",
+    "intent_prediction": {
+      "name": "zero_area",
+      "confidence": 0.5949193239212036
+    }
+  }
+]
